@@ -1,0 +1,49 @@
+:root {
+  --container-width: 1200px;
+  --container-padding: 15px;
+
+  --font-main: "Poppins", sans-serif;
+
+
+  --dark-gray: #373c49;
+  --deep-blue: #1f2261;
+  --gray: #888;
+  --green: #00ff44;
+  --light-black: rgba(0, 0, 0, 0.25);
+  --light-gray: #e9ecef;
+  --red: #ff0000;
+  --sky: #f2f7fe;
+  --violet: #26278d;
+  --deep-violet: #26277c;
+  --wet-gray: #808ca9;
+  --white: #fff;
+
+
+  --page-bg: var(--white);
+  --select-bg: var(--light-gray);
+
+  --text-color: var(--deep-blue);
+  --select-text-color: var(--dark-gray);
+  --rate-up: var(--green);
+  --rate-down: var(--red);
+  --input-focus: var(--violet);
+  --scroll-track: var(--white);
+  --scroll-thumb: var(--white);
+  --scroll-thumb-bg: var(--gray);
+
+  --courses-exchange-give-clr: var(--wet-gray);
+  --courses-card-bg: var(--white);
+  --courses-card-shadow: var(--white);
+  --courses-change-line: var(--light-gray);
+  --courses-change-btn-hvr: var(--deep-violet);
+  --courses-select-color: var(--violet);
+  --courses-input-bg: var(--light-gray);
+  --warning-card-clr: var(--dark-gray);
+  --warning-card-bg: var(--sky);
+  --courses-timer-circle: var(--light-gray);
+  --courses-timer-line: var(--violet);
+  --courses-timer-face: var(--white);
+}
+
+$tablet: 768px;
+$mobile: 425px;
