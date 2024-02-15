@@ -35,7 +35,7 @@ function getValue() {
           let source = document.querySelector(".courses__get source");
           let nameOfCountry = countryCode[code].CharCode;
           countryIcon.src = `./img/icons/${nameOfCountry.toLowerCase()}.png`;
-          source.srcset = `./img/icons/${nameOfCountry.toLowerCase()}.png`;
+          source.srcset = `./img/icons/${nameOfCountry.toLowerCase()}.webp`;
         }
       }
     }

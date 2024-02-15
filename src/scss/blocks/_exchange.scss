@@ -1,0 +1,49 @@
+.exchange {
+
+  &-rates {
+    display: flex;
+    align-items: center;
+
+    @include mediaMobile {
+      flex-wrap: wrap;
+    }
+  }
+
+  &-give,
+  &-get {
+    font-weight: 600;
+  }
+
+  &-give {
+    padding-right: 34px;
+    position: relative;
+
+    &::after {
+      content: '=';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+    }
+  }
+
+  &-get {
+
+    &.up {
+      color: var(--rate-up);
+    }
+
+    &.down {
+      color: var(--rate-down);
+    }
+  }
+
+  &-get{
+    opacity: 1;
+    transition: all .5s ease 0s;
+
+    &.reload {
+      opacity: 0;
+    }
+  }
+}
